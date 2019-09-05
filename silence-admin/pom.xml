@@ -73,6 +73,12 @@
             <artifactId>silence-generator</artifactId>
         </dependency>
 
+        <!-- 微信模块-->
+        <dependency>
+            <groupId>com.silence</groupId>
+            <artifactId>silence-weixin</artifactId>
+        </dependency>
+
         <!-- 代码简化工具lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>

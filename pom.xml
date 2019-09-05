@@ -202,6 +202,12 @@
 	            <version>${silence.version}</version>
 	        </dependency>
 
+			<dependency>
+				<groupId>com.silence</groupId>
+				<artifactId>silence-weixin</artifactId>
+				<version>${silence.version}</version>
+			</dependency>
+
         </dependencies>
     </dependencyManagement>
 

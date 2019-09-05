@@ -28,6 +28,7 @@ import java.util.stream.Collectors;
  * @author: cao_wencao
  * @date: 2019-09-02 17:06
  */
+
 @AllArgsConstructor
 @Configuration
 @EnableConfigurationProperties(WxMpProperties.class)

@@ -1,17 +1,5 @@
 ## 平台简介
 
-一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适的。于是利用空闲休息时间开始自己写了一套后台系统。如此有了若依。她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA。所有前端后台代码封装过后十分精简易上手，出错概率低。同时支持移动客户端访问。系统会陆续更新一些实用功能。
-
-性别男，若依是给还没有出生女儿取的名字（寓意：你若不离不弃，我必生死相依）
-
-若依参考后台模板。有需要可自行到群内下载。
-
-> 如需单应用，请移步 [silence-fast](https://gitee.com/y_project/silence-fast)  `(保持同步更新)`，如需Oracle版本，请移步 [silence-oracle](http://doc.silence.vip/#/standard/xmkz)  `(不定时更新)`
-
-> 阿里云通用云产品1888优惠券 ：[点我领取](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=brki8iof)&nbsp;&nbsp;&nbsp;&nbsp;腾讯云通用云产品2860优惠券 ：[点我领取](https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=198c8df2ed259157187173bc7f4f32fd&from=console)&nbsp;&nbsp;`(仅限新用户)`
-
-> 阿里云Hi拼购 限量爆款 低至199元/年 [https://www.aliyun.com/acts/hi-group-buying?userCode=brki8iof](https://www.aliyun.com/acts/hi-group-buying?userCode=brki8iof)&nbsp;&nbsp;`(仅限新用户)`
-
 ## 内置功能
 
 1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。

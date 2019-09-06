@@ -34,7 +34,7 @@
 		<lombok.version>1.18.0</lombok.version>
 	</properties>
 	
-    <!-- 依赖声明 -->
+    <!-- 依赖声明 以dependencyManagement声明的父依赖信息，子工程需显示引用方可继承该依赖 -->
     <dependencyManagement>
         <dependencies>
             <!-- SpringBoot的依赖配置-->

@@ -3,7 +3,7 @@
     <!-- 日志存放路径 -->
 	<property name="log.path" value="/home/silence/logs" />
     <!-- 日志输出格式 -->
-	<property name="log.pattern" value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{20} - [%method,%line] - %msg%n" />
+	<property name="log.pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{20} - [%method,%line] - %msg%n" />
 
 	<!-- 控制台输出 -->
 	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
@@ -12,7 +12,7 @@
 		</encoder>
 	</appender>
 	
-	<!-- 系统日志输出 -->
+	<!-- 系统日志输出 、文件保存日志的相关配置-->
 	<appender name="file_info" class="ch.qos.logback.core.rolling.RollingFileAppender">
 	    <file>${log.path}/sys-info.log</file>
         <!-- 循环政策：基于时间创建日志文件 -->
@@ -22,6 +22,7 @@
 			<!-- 日志最大的历史 60天 -->
 			<maxHistory>60</maxHistory>
 		</rollingPolicy>
+        <!-- 日志格式 -->
 		<encoder>
 			<pattern>${log.pattern}</pattern>
 		</encoder>
@@ -66,6 +67,7 @@
             <!-- 日志最大的历史 60天 -->
             <maxHistory>60</maxHistory>
         </rollingPolicy>
+        <!-- 对日志进行编码格式化-->
         <encoder>
             <pattern>${log.pattern}</pattern>
         </encoder>
@@ -76,7 +78,9 @@
 	<!-- Spring日志级别控制  -->
 	<logger name="org.springframework" level="warn" />
 
+    <!-- 指定最基础的日志输出级别 -->
 	<root level="info">
+        <!--appender将会添加到这个logger-->
 		<appender-ref ref="console" />
 	</root>
 	

@@ -48,6 +48,7 @@
         <encoder>
             <pattern>${log.pattern}</pattern>
         </encoder>
+        <!--配置只过滤、只接收ERROR级别日志-->
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <!-- 过滤的级别 -->
             <level>ERROR</level>

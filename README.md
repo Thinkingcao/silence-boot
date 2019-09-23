@@ -41,9 +41,9 @@
 ## 在线体验
 > admin/admin123  
 
-演示地址：http://silence.vip  
+演示地址：http://ruuoyi.vip  
 
-文档地址：http://doc.silence.vip
+文档地址：http://doc.ruoyi.vip
 
 ## 演示图
 

@@ -1,4 +1,23 @@
 ## 平台简介
+基于RuoYi 3.4版修改
+
+已完成修改：
+
+1、加入lombok插件
+
+2、logback日志设置成彩色高亮打印
+
+3、修改登录界面，优化登录界面效果
+
+4、修改登录进入首页后的主页图
+
+5、新增微信公众号开发基础框架模块
+
+6、引入依赖weixin-java-mp3.5.0
+
+7、application.yml新增微信开发配置参数
+
+
 
 ## 内置功能
 
@@ -19,48 +38,10 @@
 15. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
 16. 在线构建器：拖动表单元素生成相应的HTML代码。
 17. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
+
 ## 在线体验
-> admin/admin123  
-> 陆陆续续收到一些打赏，为了更好的体验已用于演示服务器升级。谢谢各位小伙伴。
+admin/admin123
 
-演示地址：http://silence.vip  
+演示地址：http://ruoyi.vip
 
-文档地址：http://doc.silence.vip
-
-## 演示图
-
-<table>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/25b5e333768d013d45a990c152dbe4d9d6e.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/5ac52ccc07a59f12205948c9408791f5c5b.jpg"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/66f8b5b24720dabe0e11ae84bd1ad4b038e.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/a46f34786bc9fc400697b6f3677be5bb3f0.jpg"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/6010201b078dbc9e1d8c09c6a3e53f4344c.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/058928ad3a6e6de67b43d62d42dbf071355.jpg"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/21acdcade5e306f2c5d7ae26993b4e6bd06.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/ad5ea3c4c2ea2e91d1f05f6cc384cbad2a1.jpg"/></td>
-    </tr>	 
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/6ca845cca1701fbf71881efe4f341c82f99.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/e3aeb8fff585594f6e947218e14f2806ea1.jpg"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/197ddc2fdffc27020f8624bd7ca1a971f61.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/a2dabea752d7d70aede20908dee0b419829.jpg"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/c5699c5726b5aebde71a37bb5163d840bc2.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/24740d59377e826d0d8664ebad66dc84abd.jpg"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/bbe7fe1048d29217ba73bd3ed88d6743b55.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/5f3d39a141f21f81b90536f391b8408f1fa.jpg"/></td>
-    </tr>
-</table>
-
+文档地址：http://doc.ruoyi.vip

@@ -61,15 +61,21 @@
 # 必要配置
 1、修改数据库连接
 编辑resources目录下的application-druid.yml
+
 url: 服务器地址
+
 username: 账号
+
 password: 密码
 
 
 2、开发环境配置
 编辑resources目录下的application.yml
+
 port: 端口
+
 context-path: 部署路径 
+
 
 ## 在线体验
 admin/admin123

@@ -48,3 +48,5 @@ admin/admin123
 
 ## 演示图
 ![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/login.png)
+
+![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/wechat.png)

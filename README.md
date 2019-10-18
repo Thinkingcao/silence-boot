@@ -47,10 +47,13 @@
 
 ## 项目配置
 1、本仓库下载页面(https://github.com/Thinkingcao/silence-boot)下载解压到工作目录
-2、导入到Eclipse，菜单 File -> Import，然后选择 Maven -> Existing Maven Projects，点击 Next> 按钮，选择工作目录，然后点击 Finish 按钮，即可成功导入
-Eclipse会自动加载Maven依赖包，初次加载会比较慢（根据自身网络情况而定）
+
+2、导入到Eclipse，菜单 File -> Import，然后选择 Maven -> Existing Maven Projects，点击 Next> 按钮，选择工作目录，然后点击 Finish 按钮，即可成功导入Eclipse会自动加载Maven依赖包，初次加载会比较慢（根据自身网络情况而定）
+
 3、创建数据库ry并导入数据脚本silence(200190905).sql(请导入这个脚本，包含了定时任务等sql,最全的)
+
 4、打开运行com.silence.SilenceApplication.java
+
 5、打开浏览器，输入：http://127.0.0.1:8888/silence/login（默认账户 admin/admin123）
 若能正确展示登录页面，并能成功登录，菜单及页面展示正常，则表明环境搭建成功
 

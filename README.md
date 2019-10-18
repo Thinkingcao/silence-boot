@@ -45,3 +45,6 @@ admin/admin123
 演示地址：http://ruoyi.vip
 
 文档地址：http://doc.ruoyi.vip
+
+## 演示图
+![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/login.png)

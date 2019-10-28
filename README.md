@@ -50,7 +50,7 @@
 
 2、导入到Eclipse，菜单 File -> Import，然后选择 Maven -> Existing Maven Projects，点击 Next> 按钮，选择工作目录，然后点击 Finish 按钮，即可成功导入Eclipse会自动加载Maven依赖包，初次加载会比较慢（根据自身网络情况而定）
 
-3、创建数据库ry并导入数据脚本silence(200190905).sql(请导入这个脚本，包含了定时任务等sql,最全的)
+3、创建数据库ry并导入数据脚本silence-new.sql(请导入这个脚本，包含了定时任务等sql,是报纸最新、最全的持续更新)
 
 4、打开运行com.silence.SilenceApplication.java
 
@@ -88,3 +88,9 @@ admin/admin123
 ![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/login.png)
 
 ![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/wechat.png)
+
+
+## 关于微信开发
+1、想要做微信功能开发的小伙伴可以参考SDK：https://github.com/Wechat-Group/WxJava ，本项目只作为SpringBoot权限管理系统，在若依系统的基础上加入微信模块以及微信功能路由、路由事件、微信消息接入等等后台一整套路由信息，需要微信相关功能直接调用SDK（weixin-java-mp）开发接口即可
+
+2、另外本人喜欢记录博客，也有一些关于微信开发的文章，有兴趣的同学欢迎查看：https://thinkingcao.blog.csdn.net/article/category/9277860

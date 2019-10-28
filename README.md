@@ -91,6 +91,6 @@ admin/admin123
 
 
 ## 关于微信开发
-1、想要做微信功能开发的小伙伴可以参考SDK：https://github.com/Wechat-Group/WxJava ，本项目只作为SpringBoot权限管理系统，在若依系统的基础上加入微信模块以及微信功能路由、路由事件、微信消息接入等等后台一整套路由信息，需要微信相关功能直接调用SDK（weixin-java-mp）开发接口即可
+1.想要做微信功能开发的小伙伴可以参考SDK：https://github.com/Wechat-Group/WxJava ，本项目只作为SpringBoot权限管理系统，在若依系统的基础上加入微信模块以及微信功能路由、路由事件、微信消息接入等等后台一整套路由信息，需要微信相关功能直接调用SDK（weixin-java-mp）开发接口即可
 
-2、另外本人喜欢记录博客，也有一些关于微信开发的文章，有兴趣的同学欢迎查看：https://thinkingcao.blog.csdn.net/article/category/9277860
+2.另外本人喜欢记录博客，也有一些关于微信开发的文章，有兴趣的同学欢迎查看：https://thinkingcao.blog.csdn.net/article/category/9277860

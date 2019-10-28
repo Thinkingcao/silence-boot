@@ -203,6 +203,7 @@
 	            <version>${silence.version}</version>
 	        </dependency>
 
+			<!-- 微信模块-->
 			<dependency>
 				<groupId>com.silence</groupId>
 				<artifactId>silence-weixin</artifactId>

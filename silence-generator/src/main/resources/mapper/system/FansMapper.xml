@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.silence.generator.mapper.FansMapper">
+    
+    <resultMap type="Fans" id="FansResult">
+        <result property="id"    column="id"    />
+        <result property="openId"    column="open_id"    />
+        <result property="nickName"    column="nick_name"    />
+        <result property="sex"    column="sex"    />
+        <result property="country"    column="country"    />
+        <result property="province"    column="province"    />
+        <result property="city"    column="city"    />
+        <result property="headimgurl"    column="headimgurl"    />
+        <result property="unionid"    column="unionid"    />
+        <result property="realName"    column="real_name"    />
+        <result property="phone"    column="phone"    />
+        <result property="isSubscribe"    column="is_subscribe"    />
+        <result property="subscribe"    column="subscribe"    />
+    </resultMap>
+	
+	<sql id="selectFansVo">
+        select id, open_id, nick_name, sex, country, province, city, headimgurl, unionid, real_name, phone, is_subscribe, subscribe from fans
+    </sql>
+	
+    <select id="selectFansList" parameterType="Fans" resultMap="FansResult">
+        <include refid="selectFansVo"/>
+        <where>  
+            <if test="id != null  and id != '' "> and id = #{id}</if>
+             <if test="openId != null  and openId != '' "> and open_id = #{openId}</if>
+             <if test="nickName != null  and nickName != '' "> and nick_name = #{nickName}</if>
+             <if test="sex != null  and sex != '' "> and sex = #{sex}</if>
+             <if test="country != null  and country != '' "> and country = #{country}</if>
+             <if test="province != null  and province != '' "> and province = #{province}</if>
+             <if test="city != null  and city != '' "> and city = #{city}</if>
+             <if test="headimgurl != null  and headimgurl != '' "> and headimgurl = #{headimgurl}</if>
+             <if test="unionid != null  and unionid != '' "> and unionid = #{unionid}</if>
+             <if test="realName != null  and realName != '' "> and real_name = #{realName}</if>
+             <if test="phone != null  and phone != '' "> and phone = #{phone}</if>
+             <if test="isSubscribe != null  and isSubscribe != '' "> and is_subscribe = #{isSubscribe}</if>
+             <if test="subscribe != null "> and subscribe = #{subscribe}</if>
+         </where>
+    </select>
+    
+    <select id="selectFansById" parameterType="String" resultMap="FansResult">
+        <include refid="selectFansVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertFans" parameterType="Fans">
+        insert into fans
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null  and id != ''  ">id,</if>
+			<if test="openId != null  and openId != ''  ">open_id,</if>
+			<if test="nickName != null  and nickName != ''  ">nick_name,</if>
+			<if test="sex != null  and sex != ''  ">sex,</if>
+			<if test="country != null  and country != ''  ">country,</if>
+			<if test="province != null  and province != ''  ">province,</if>
+			<if test="city != null  and city != ''  ">city,</if>
+			<if test="headimgurl != null  and headimgurl != ''  ">headimgurl,</if>
+			<if test="unionid != null  and unionid != ''  ">unionid,</if>
+			<if test="realName != null  and realName != ''  ">real_name,</if>
+			<if test="phone != null  and phone != ''  ">phone,</if>
+			<if test="isSubscribe != null  and isSubscribe != ''  ">is_subscribe,</if>
+			<if test="subscribe != null  ">subscribe,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null  and id != ''  ">#{id},</if>
+			<if test="openId != null  and openId != ''  ">#{openId},</if>
+			<if test="nickName != null  and nickName != ''  ">#{nickName},</if>
+			<if test="sex != null  and sex != ''  ">#{sex},</if>
+			<if test="country != null  and country != ''  ">#{country},</if>
+			<if test="province != null  and province != ''  ">#{province},</if>
+			<if test="city != null  and city != ''  ">#{city},</if>
+			<if test="headimgurl != null  and headimgurl != ''  ">#{headimgurl},</if>
+			<if test="unionid != null  and unionid != ''  ">#{unionid},</if>
+			<if test="realName != null  and realName != ''  ">#{realName},</if>
+			<if test="phone != null  and phone != ''  ">#{phone},</if>
+			<if test="isSubscribe != null  and isSubscribe != ''  ">#{isSubscribe},</if>
+			<if test="subscribe != null  ">#{subscribe},</if>
+         </trim>
+    </insert>
+	 
+    <update id="updateFans" parameterType="Fans">
+        update fans
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="openId != null  and openId != ''  ">open_id = #{openId},</if>
+            <if test="nickName != null  and nickName != ''  ">nick_name = #{nickName},</if>
+            <if test="sex != null  and sex != ''  ">sex = #{sex},</if>
+            <if test="country != null  and country != ''  ">country = #{country},</if>
+            <if test="province != null  and province != ''  ">province = #{province},</if>
+            <if test="city != null  and city != ''  ">city = #{city},</if>
+            <if test="headimgurl != null  and headimgurl != ''  ">headimgurl = #{headimgurl},</if>
+            <if test="unionid != null  and unionid != ''  ">unionid = #{unionid},</if>
+            <if test="realName != null  and realName != ''  ">real_name = #{realName},</if>
+            <if test="phone != null  and phone != ''  ">phone = #{phone},</if>
+            <if test="isSubscribe != null  and isSubscribe != ''  ">is_subscribe = #{isSubscribe},</if>
+            <if test="subscribe != null  ">subscribe = #{subscribe},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+	<delete id="deleteFansById" parameterType="String">
+        delete from fans where id = #{id}
+    </delete>
+	
+    <delete id="deleteFansByIds" parameterType="String">
+        delete from fans where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

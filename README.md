@@ -1,3 +1,7 @@
+## 前面说明
+注：由于本项目代码拓宽于GitHub仓库，如果在下载的时候下载慢，或者其他情况，可移步国内的开源代码仓库平台码云；
+地址：https://gitee.com/Thinkingcao/silence-boot
+
 ## 平台简介
 基于RuoYi 3.4版修改
 

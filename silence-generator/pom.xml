@@ -29,6 +29,12 @@
             <artifactId>silence-common</artifactId>
         </dependency>
 
+        <!-- 代码简化工具lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 	
 </project>

@@ -94,6 +94,7 @@ admin/admin123
 ![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/login.png)
 
 ![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/wechat.png)
+
 ![domain](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/domain.png)
 
 ## 关于微信开发

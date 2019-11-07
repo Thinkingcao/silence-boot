@@ -84,7 +84,7 @@ context-path: 部署路径
 
 
 ## 在线体验
-admin/admin123
+>admin/admin123
 
 演示地址：http://ruoyi.vip
 

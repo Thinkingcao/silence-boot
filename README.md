@@ -21,6 +21,8 @@
 
 7、application.yml新增微信开发配置参数
 
+8、修改代码生成器模板注释排版、domain层使用lombok注解
+
 ### 待完成功能：
 1、微信界面化配置：appId、secret、token、aesKey
 

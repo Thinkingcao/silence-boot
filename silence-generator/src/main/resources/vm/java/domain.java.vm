@@ -1,7 +1,7 @@
-package
+package ${package}.domain;
 
 import lombok.Data;
-import lombok.ToString;${package}.domain;
+import lombok.ToString;
 
 #foreach ($column in $columns)
 #if($column.attrType == 'Date' && ($column.attrname != 'createBy' && $column.attrname != 'createTime' && $column.attrname != 'updateBy' && $column.attrname != 'updateTime' && $column.attrname != 'remark'))
@@ -13,12 +13,10 @@ import lombok.ToString;${package}.domain;
     #break
 #end
 #end
-
 /**
- * ${tableComment}表 ${tableName}
- * 
- * @author ${author}
- * @date ${datetime}
+ * @desc: ${tableComment}表 ${tableName}
+ * @author: ${author}
+ * @date: ${datetime}
  */
 @Data
 @ToString

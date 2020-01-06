@@ -2,17 +2,20 @@ package com.silence;
 
 import com.silence.common.config.Global;
 import com.silence.common.utils.IpUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
+import org.springframework.stereotype.Component;
 
 /**
  * 启动程序
  * 
  * @author silence
  */
+@Slf4j
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 public class SilenceApplication
 {
@@ -21,6 +24,7 @@ public class SilenceApplication
         System.setProperty("spring.devtools.restart.enabled", "false");
         ConfigurableApplicationContext context = SpringApplication.run(SilenceApplication.class, args);
         printKeyLoadMessage(context);
+
     }
 
     /**
@@ -48,6 +52,19 @@ public class SilenceApplication
         System.out.println("\tswaggerUrl: " + swaggerUrl);
         System.out.println("\r");
         return true;
+    }
+
+
+    public static void printInitBean(ConfigurableApplicationContext context){
+        // 打印所有的Bean
+        // String[] beanNames = context.getBeanDefinitionNames();
+        // 打印所有添加该注解的bean
+        String[] beanNames = context.getBeanNamesForAnnotation(Component.class);
+        log.info("bean总数:{}", context.getBeanDefinitionCount());
+        int i = 0;
+        for (String str : beanNames) {
+            log.info("{},beanName:{}", ++i, str);
+        }
     }
 
 }

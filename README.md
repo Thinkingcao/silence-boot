@@ -5,7 +5,7 @@
 ## 平台简介
 基于RuoYi 3.4版修改
 
-### 已完成功能：
+## 已完成功能：
 
 1、加入lombok插件
 
@@ -23,12 +23,23 @@
 
 8、修改代码生成器模板注释排版、domain层使用lombok注解
 
-### 待完成功能：
+## 待完成功能：
 1、微信界面化配置：appId、secret、token、aesKey
 
 2、微信粉丝基础信息
 
 3、微信常见功能等等。。。。。。。
+
+
+## 关于Lombok(新手建议)
+>"重要的事情讲三遍"
+
+>>开发工具(Eclipse/IDEA)切记要下载安装Lombok插件
+
+>>开发工具(Eclipse/IDEA)切记要下载安装Lombok插件
+
+>>开发工具(Eclipse/IDEA)切记要下载安装Lombok插件
+
 
 
 ## 内置功能
@@ -64,7 +75,7 @@
 若能正确展示登录页面，并能成功登录，菜单及页面展示正常，则表明环境搭建成功
 
 
-# 必要配置
+## 必要配置
 1、修改数据库连接
 编辑resources目录下的application-druid.yml
 
@@ -81,7 +92,6 @@ password: 密码
 port: 端口
 
 context-path: 部署路径 
-
 
 ## 在线体验
 >admin/admin123

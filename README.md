@@ -3,7 +3,8 @@
 地址：https://gitee.com/Thinkingcao/silence-boot ，或者您可以直接在gitee上克隆该silence-boot仓库源代码；
 
 ## 修复问题
-1. 修复以war包外部Tomcat部署，访问登录页时404问题   2020-01-10 12:12
+### 2020-01-10 12:12
+1. 修复以war包外部Tomcat部署，访问登录页时404问题      
 
 ## 平台简介
 基于RuoYi 3.4版修改

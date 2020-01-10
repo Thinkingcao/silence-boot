@@ -13,6 +13,6 @@ public class SilenceServletInitializer extends SpringBootServletInitializer
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
     {
-        return application.sources(SilenceServletInitializer.class);
+        return application.sources(SilenceApplication.class);
     }
 }

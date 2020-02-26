@@ -1,6 +1,7 @@
 ## 前面说明
 注：由于本项目代码托管于GitHub仓库，如果在下载的时候下载慢，或者其他情况，可移步国内的开源代码仓库平台码云；
-地址：https://gitee.com/Thinkingcao/silence-boot ，或者您可以直接在gitee上克隆该silence-boot仓库源代码；
+
+码云地址：https://gitee.com/Thinkingcao/silence-boot ；
 
 ## 修复问题
 ### 2020-01-10 12:12
@@ -13,7 +14,7 @@
 
 1、加入lombok插件
 
-2、logback日志设置成彩色高亮打印
+2、设置控制台输出logback彩色高亮日志显示
 
 3、修改登录界面，优化登录界面效果
 

@@ -113,9 +113,11 @@ context-path: 部署路径
 ![Image](https://github.com/Thinkingcao/silence-boot/blob/master/doc/screenshot/entity.png)
 
 ## 关于微信开发
-1.想要做微信功能开发的小伙伴可以参考SDK：https://github.com/Wechat-Group/WxJava ，本项目只作为SpringBoot权限管理系统，在若依系统的基础上加入微信模块以及微信功能路由、路由事件、微信消息接入等等后台一整套路由信息，需要微信相关功能直接调用SDK（weixin-java-mp）开发接口即可
+1.如果需要做微信公众号开发、企业号开发、微信支付开发的小伙伴，只需要下载本项目，即可快速开发微信相关功能，本项目只作为SpringBoot权限管理系统，在若依系统的基础上加入微信模块以及微信功能路由、路由事件、微信消息接入等等后台一整套路由信息，需要微信相关功能直接调用SDK（weixin-java-mp）开发接口即可
 
 2.SpringBoot2.x系列教程 ：https://thinkingcao.blog.csdn.net/article/category/9281035
 
-3.微信开发系列教程文章 ：https://thinkingcao.blog.csdn.net/article/category/9277860
+3.SpringCloud2系列教程：https://blog.csdn.net/thinkingcao/category_9274918.html
+
+4.微信开发系列教程：https://thinkingcao.blog.csdn.net/article/category/9277860
 

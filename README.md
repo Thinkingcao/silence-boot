@@ -121,3 +121,5 @@ context-path: 部署路径
 
 4.微信开发系列教程：https://thinkingcao.blog.csdn.net/article/category/9277860
 
+5.SpringCloudAlibaba系列教程：https://blog.csdn.net/thinkingcao/category_9274918.html
+

@@ -1,7 +1,8 @@
 ## 前面说明
 注：由于本项目代码托管于GitHub仓库，如果在下载的时候下载慢，或者其他情况，可移步国内的开源代码仓库平台码云；
 
-码云地址：https://gitee.com/Thinkingcao/silence-boot ；
+Gitee地址：  https://gitee.com/Thinkingcao/silence-boot 
+GitHub地址： https://github.com/Thinkingcao/silence-boot
 
 ## 修复问题
 ### 2020-01-10 12:12

@@ -32,7 +32,7 @@
 		<poi.version>3.17</poi.version>
 		<velocity.version>1.7</velocity.version>
 		<lombok.version>1.18.0</lombok.version>
-		<fastjson.version>1.2.47</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 	</properties>
 	
     <!-- 依赖声明 以dependencyManagement声明的父依赖信息，子工程需显示引用方可继承该依赖 -->
